@@ -1,0 +1,9 @@
+[submodule "totem"]
+	path = totem
+	url = https://github.com/winstonli/totem.git
+[submodule "totem-doom"]
+	path = totem-doom
+	url = https://github.com/winstonli/totem-doom.git
+[submodule "totem-ios"]
+	path = totem-ios
+	url = https://github.com/winstonli/totem-ios.git

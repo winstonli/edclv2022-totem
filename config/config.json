@@ -1,0 +1,116 @@
+{
+    "dances": [
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-1.gif",
+                    "start_frame_idx": 0
+                }
+            },
+            "beats_needed": 32
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-1-blink.gif",
+                    "start_frame_idx": 0
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-2.gif",
+                    "start_frame_idx": 1
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-4a.gif",
+                    "start_frame_idx": 3
+                }
+            },
+            "beats_needed": 1
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-4b.gif",
+                    "start_frame_idx": 3
+                }
+            },
+            "beats_needed": 1
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-5a.gif",
+                    "start_frame_idx": 4
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-5b.gif",
+                    "start_frame_idx": 4
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-5c.gif",
+                    "start_frame_idx": 4
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-5d.gif",
+                    "start_frame_idx": 4
+                }
+            },
+            "beats_needed": 2
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/potaro-6.gif",
+                    "start_frame_idx": 5
+                }
+            },
+            "beats_needed": 4
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/language-face-dark.gif",
+                    "start_frame_idx": 6
+                }
+            },
+            "beats_needed": 1
+        },
+        {
+            "kind": {
+                "Single": {
+                    "path": "animations/language-face-flashing.gif",
+                    "start_frame_idx": 6
+                }
+            },
+            "beats_needed": 1
+        }
+    ],
+    "doom": {
+        "doom_path": "../totem-doom/doomgeneric/totem-doom",
+        "wad_path": "../DOOM.wad"
+    }
+}
