@@ -81,13 +81,13 @@ This is done via 2 more cross-compiling Rust toolchains (`aarch64-apple-ios` (de
 
 The UI is native SwiftUI and relatively "naive". It uses a generated C header to make C-ABI calls
 into the Rust library. It more or less creates a "channel" object and then reads and writes streams
-of [messages](https://github.com/winstonli/totem/blob/8f77beb374f4b0ac0e64d491614903e283ae8be1/totem-client/src/ui_msg.rs).
+of [messages](https://github.com/winstonli/edclv2022-totem/blob/main/examples/ui_msg.rs).
 
 Swift ARC is nice for managing Rust `Box<>`s. It's certainly better than GC but falls short of Rust
 lifetimes. The whole thing is nicely composed with all the SwiftUI-specific Reactive Programming
 primitives.
 
-The network protocol is gRPC byte arrays + these [messages](https://github.com/winstonli/totem/blob/8f77beb374f4b0ac0e64d491614903e283ae8be1/totem-common/src/msg.rs).
+The network protocol is gRPC byte arrays + these [messages](https://github.com/winstonli/edclv2022-totem/blob/main/examples/msg.rs).
 
 ### Networking in a "noisy" environment
 
