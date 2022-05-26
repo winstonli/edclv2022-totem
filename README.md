@@ -169,7 +169,7 @@ Holding a key down works similarly to the
 to mitigate latency: it must continually send messages while it is held down, and the server treats
 a timeout as a key-up event if it doesn't actually receive a key-up.
 
-The server reads 320x200 32-byte pixels from the frame buffer pipe, scales it to 128x96, then draws
+The server reads 320x200 4-byte pixels from the frame buffer pipe, scales it to 128x96, then draws
 it.
 
 Save and load game works as it's just `stdio`.
